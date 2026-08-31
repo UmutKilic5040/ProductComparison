@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="UrunKarsilastirma.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:UrunKarsilastirma"
+    xmlns:pages="clr-namespace:UrunKarsilastirma.Pages"
+    Title="UrunKarsilastirma">
+
+    <ShellContent
+        Title="Ürün Karşılaştırma"
+        ContentTemplate="{DataTemplate pages:MainPage}"
+        Route="MainPage" />
+
+</Shell>
